@@ -1,5 +1,6 @@
 body{
     background-color: #000;
+    font-family: var(--font-dm-sans);
 }
 
 .sidebar {
@@ -40,7 +41,7 @@ body{
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    font-family: "DM Sans",sans-serif;
+
 
 }
 
@@ -70,7 +71,6 @@ body{
     border: 0px;
     font-size: 14px;
     font-weight: 700;
-    font-family: "DM Sans",sans-serif;
     text-align: center;
     text-decoration: none;
     text-transform: none;
@@ -109,7 +109,6 @@ body{
 .section-playlist__content .text {
     padding-bottom: 14px;
     color: #fff;
-    font-family: "DM Sans",sans-serif;
 }
 
 
@@ -130,7 +129,6 @@ body{
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    font-family: "DM Sans",sans-serif;
     text-decoration: none;
     text-transform: none;
     padding: 10px;
@@ -165,12 +163,44 @@ body{
     width: 170px;
     margin: 8px;
     padding: 8px;
-    border:20px ;
-    
-    
+    border:20px ; 
 
 }
 
+.footer {
+    background: linear-gradient(to right, #cb2467, #1a73cd); 
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left-text {
+    text-align: left;
+    font-weight: 600;
+  }
+  
+  .subscribe-button {
+    background-color: #b0b0b0; 
+    margin-right: 30px;
+    color: #000; 
+    padding: 10px 20px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  button:hover{
+    background: linear-gradient(to left, #cb2467, #1a73cd); 
+    border-radius: 15px;
+  }
 
 
 
